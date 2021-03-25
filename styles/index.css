@@ -1,0 +1,14 @@
+.header_banner {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 4rem;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  background: #5685ba;
+}
+.header_banner h1 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
