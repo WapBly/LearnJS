@@ -1,4 +1,6 @@
-if(brouser == 'Chrome') {
+const browser = 'Chrome'
+
+if(browser == 'Chrome') {
     alert("You've got the Chrome!");
 } else if(brouser == 'Edge'
     || browser == 'Firefox'
