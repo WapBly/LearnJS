@@ -1,4 +1,5 @@
-debugger;
+'use strict';
+
 const a = +prompt('Введите число между 0 и 3', '');
 
 switch (a) {

@@ -1,3 +1,5 @@
+'use strict';
+
 alert("" + 1 + 0);
 alert("" - 1 + 0);
 alert(true + false);

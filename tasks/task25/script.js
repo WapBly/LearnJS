@@ -1,3 +1,5 @@
+'use strict';
+
 const browser = 'Chrome'
 
 if(browser == 'Chrome') {
