@@ -1,3 +1,5 @@
+'use strict';
+
 const name = "Ilya";
 
 alert( `hello ${1}` );

@@ -1,3 +1,5 @@
+'use strict';
+
 alert(5 > 4);
 alert("ананас" > "яблоко");
 alert("2" > "12");

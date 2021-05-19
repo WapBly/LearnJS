@@ -1,3 +1,5 @@
+'use strict';
+
 let n = 15;
 
 nextPrime:

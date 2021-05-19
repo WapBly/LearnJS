@@ -1,3 +1,5 @@
+'use strict';
+
 let admin; // Объявил переменную admin
 let name; // Объявил переменную name
 

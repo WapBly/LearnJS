@@ -1,3 +1,5 @@
+'use strict';
+
 let i = +prompt('Введите число', '');
 
 if (i < 0){

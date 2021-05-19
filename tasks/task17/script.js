@@ -1,3 +1,5 @@
+'use strict';
+
 let login = prompt('Кто там?','');
 
 if (login == 'Админ'){
