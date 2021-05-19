@@ -1,19 +1,12 @@
-'use strict';
+'use sctrict';
 
-function pow(x, n) {
-    let result = x;
-    
-    for(let i = 1; i < n; i++) {
-        result *= x;
-    }
-    return result;
-}
+let pow = (a, b) => a ** b; 
 
-let x = +prompt('x?', '');
-let n = +prompt('n?', '');
+let a = +prompt('a', '');
+let b = +prompt('b', '');
 
-if(n < 1) {
-    alert(`Степень ${n} не поддерживается, введите натуральное число`);
+if (b < 1) {
+    alert ( `Степень ${b} не поддерживается, введите натуральное число` );
 } else {
-    alert( pow(x, n) );
-  }
+    alert ( pow(a, b) );
+}
