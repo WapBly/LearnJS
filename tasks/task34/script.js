@@ -1,8 +1,8 @@
 let schedule = {};
 
-let isEmpty = (obj) => {
+let isEmpty = (schedule) => {
     {
-    for (let key in obj)
+    for (let key in schedule)
     return false;
 }  
 return true;
